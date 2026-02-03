@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "swap_numbers",
+      "request": "launch",
+      "mainClass": "Practice.swap_numbers",
+      "projectName": "Java_4ca60267"
+    },
+    {
+      "type": "java",
+      "name": "sum_of_digits_of_a_number",
+      "request": "launch",
+      "mainClass": "Practice.sum_of_digits_of_a_number",
+      "projectName": "Java_4ca60267"
+    },
+    {
+      "type": "java",
+      "name": "prime_in_range",
+      "request": "launch",
+      "mainClass": "Practice.prime_in_range",
+      "projectName": "Java_4ca60267"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "e:/GITRepo/Java/Practice",
+      "program": "e:/GITRepo/Java/Practice/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
