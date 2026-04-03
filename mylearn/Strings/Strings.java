@@ -14,7 +14,12 @@ class Strings{
         // String result = name.replace("Par", "Pka");
         // int result = name.lastIndexOf('i');
         // String result = name.substring(5,10);
-        String result = name.concat("Dogra");
+        // String result = name.concat("Dogra");
+        String str = "a,b,c";
+        String[] arr = str.split(",");
+        String joined = String.join("-", arr);
         System.out.println(result);
+        char[] arr = s.toCharArray();
+        String newStr = new String(arr);
     }
 }
