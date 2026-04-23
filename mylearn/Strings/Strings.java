@@ -18,8 +18,9 @@ class Strings{
         String str = "a,b,c";
         String[] arr = str.split(",");
         String joined = String.join("-", arr);
-        System.out.println(result);
-        char[] arr = s.toCharArray();
-        String newStr = new String(arr);
+        // System.out.println(result);
+        char[] ar = joined.toCharArray();
+        String newStr = new String(ar);
+        System.out.println(newStr);
     }
 }
